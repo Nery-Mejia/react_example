@@ -1,13 +1,15 @@
 import Link from 'next/link'
 import React from 'react'
+import { urlDeAplicacion } from '@/app/utils/constants'
 
 const Header = () => {
   return (
     <div className='w-full flex flex-row justify-between p-6 bg-blue-500 text-white'>
-      <Link href={'/'} className='text-xl font-bold'>React example</Link>
+      <Link href={urlDeAplicacion.urlnicio} className='text-xl font-bold'>React example</Link>
       <div className='flex flex-row gap-4'>
-        <Link href={'/'}>Inicio</Link>
-        <Link href={'/examples'}>Ejemplos</Link>
+        <Link href={urlDeAplicacion.urlnicio}>Inicio</Link>
+        <Link href={urlDeAplicacion.urlExamples}>Ejemplos</Link>
+        <Link href={'/MD22007'}>Top 3 actores</Link>
       </div>
     </div>
   )
