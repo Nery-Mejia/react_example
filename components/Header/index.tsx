@@ -4,7 +4,7 @@ import { urlDeAplicacion } from '@/app/utils/constants'
 
 const Header = () => {
   return (
-    <div className='w-full flex flex-row justify-between p-6 bg-blue-500 text-white'>
+    <div className='w-full flex flex-row justify-between p-6 bg-md22007-primary-color text-white'>
       <Link href={urlDeAplicacion.urlnicio} className='text-xl font-bold'>React example</Link>
       <div className='flex flex-row gap-4'>
         <Link href={urlDeAplicacion.urlnicio}>Inicio</Link>
