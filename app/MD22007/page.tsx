@@ -25,6 +25,7 @@ const Top3Actores = () => {
         <Image width={200} height={150} src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Tilda Swinton" className="w-full h-auto my-2" />
         <p>Katherine Matilda Swinton, conocida como Tilda Swinton, es una actriz y modelo británica. Cuenta con ascendencia escocesa</p>
       </div>
+      <button className='botonEliminar'>Eliminar</button>
     </div>
   );
 }
