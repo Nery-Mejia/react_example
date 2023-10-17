@@ -10,6 +10,8 @@ const Header = () => {
         <Link href={urlDeAplicacion.urlnicio}>Inicio</Link>
         <Link href={urlDeAplicacion.urlExamples}>Ejemplos</Link>
         <Link href={'/MD22007'}>Top 3 actores</Link>
+        <Link href={'/usuarios'}>Usuarios</Link>
+        <Link href={'/login'}>Login</Link>
       </div>
     </div>
   )
